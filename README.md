@@ -21,9 +21,10 @@ Finally the code will have file read/write threads, too.
 
 ## far away
 
+ -  make it more object oriented
  -  good balance main loop and threads
  -  performace tests
  -  automatic balance
  -  less memory usage
- -  include old code (ecb, cbc) as cli option
+ -  [done] include old code (ecb, cbc) as cli option
  -  user documentation / manual
