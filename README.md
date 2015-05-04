@@ -22,9 +22,12 @@ Finally the code will have file read/write threads, too.
 ## far away
 
  -  make it more object oriented
+ -  config file
+ -  key via pipe or file
+ -  multiline key
  -  good balance main loop and threads
- -  performace tests
+ -  performance tests
  -  automatic balance
  -  less memory usage
- -  [done] include old code (ecb, cbc) as cli option
+ -  ~~include old code (ecb, cbc) as cli option~~
  -  user documentation / manual
