@@ -1,0 +1,6 @@
+{
+  "name": "AES CTR Multithreaded",
+  "tagline": "this c++2011 code want to split CTR coding into threads. Finally the code will have file read/write threads, too.",
+  "body": "# aesCtrMultiThread\r\n\r\nthis c++2011 code want to split CTR coding into threads. \r\nFinally the code will have file read/write threads, too.\r\n\r\n## next concept\r\n\r\n    1) Read Data From File\r\n    2) Split Data to threads (loop)\r\n    A) Read Data From File\r\n    3) join threads to coded data (loop)\r\n    START LOOP\r\n       B) II) Split Data to threads (loop)\r\n       I) Read Data From File -> no data? BREAK\r\n       4) D) IV) write coded data\r\n       C) III) join threads to coded data (loop)\r\n    END LOOP\r\n    write coded data\r\n    join threads to coded data (loop)\r\n    write coded data\r\n\r\n## far away\r\n\r\n -  make it more object oriented\r\n -  config file\r\n -  key via pipe or file\r\n -  multiline key\r\n -  good balance main loop and threads\r\n -  performance tests\r\n -  automatic balance\r\n -  less memory usage\r\n -  ~~include old code (ecb, cbc) as cli option~~\r\n -  user documentation / manual\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
